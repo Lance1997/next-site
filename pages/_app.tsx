@@ -1,4 +1,4 @@
-import {globalStyles} from '../shared/globals'
+import {globalStyles} from '@shared/globals'
 import {AppProps} from 'next/app'
 import {Global} from '@emotion/react'
 
