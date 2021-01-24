@@ -1,16 +1,7 @@
-import Head from 'next/head'
-import Header from '@components/header'
+import Page from '@layouts/page';
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>NextJS Tuts</title>
-      </Head>
-      
-        <main>
-          <Header />
-        </main>
-    </>
+    <Page />
   )
 }
