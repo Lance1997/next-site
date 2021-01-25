@@ -61,7 +61,10 @@ const footerStyles = css`
 
 export default function About() {
   return (
-    <Page>
+    <Page meta= {{
+        title: "About",
+        description: "About page of Statr" }}
+    >
         <section css={headerStyles}>
         <Image css={pilotPicture} src="/images/dog.jpg" width={225} height={300}/>
         <h2 css={title}>
